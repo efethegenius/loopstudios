@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "./images/logo.svg";
-import { FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaGlobe, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 export const Footer = () => {
   return (
@@ -18,9 +18,27 @@ export const Footer = () => {
         </div>
         <div className="social-icons-container">
           <div className="social-icons">
-            <FaInstagram />
-            <FaTwitter />
-            <FaLinkedin />
+            <a
+              href="https://www.instagram.com/efethegenius/"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <FaInstagram />
+            </a>
+            <a
+              href="https://efesamuel.netlify.app/"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <FaGlobe />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/efe-samuel/"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <FaLinkedin />
+            </a>
           </div>
           <p className="copyright">© 2021 Loopstudios. All rights reserved</p>
         </div>

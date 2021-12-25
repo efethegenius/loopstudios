@@ -31,6 +31,9 @@
 .App {
   position: relative;
 }
+.social-icons a {
+  color: white;
+}
 .hero-container {
   display: flex;
   align-items: center;
